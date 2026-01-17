@@ -9,3 +9,18 @@ C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.
 C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\refint\MovieApp.DataAccess.dll
 C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.pdb
 C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\ref\MovieApp.DataAccess.dll
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.deps.json
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.runtimeconfig.json
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.dll
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.pdb
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.csproj.AssemblyReference.cache
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.AssemblyInfoInputs.cache
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.AssemblyInfo.cs
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.sourcelink.json
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.dll
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\refint\MovieApp.DataAccess.dll
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.pdb
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.genruntimeconfig.cache
+D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\ref\MovieApp.DataAccess.dll

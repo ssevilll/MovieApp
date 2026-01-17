@@ -13,3 +13,19 @@ C:\Users\sevilsb\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Bu
 C:\Users\sevilsb\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\refint\MoveiApp.Business.dll
 C:\Users\sevilsb\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.pdb
 C:\Users\sevilsb\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\ref\MoveiApp.Business.dll
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\bin\Debug\net8.0\MoveiApp.Business.deps.json
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\bin\Debug\net8.0\MoveiApp.Business.dll
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\bin\Debug\net8.0\MoveiApp.Business.pdb
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\bin\Debug\net8.0\MovieApp.DataAccess.dll
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\bin\Debug\net8.0\MovieApp.DataAccess.pdb
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.csproj.AssemblyReference.cache
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.AssemblyInfoInputs.cache
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.AssemblyInfo.cs
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.csproj.CoreCompileInputs.cache
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.sourcelink.json
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.34F1ED10.Up2Date
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.dll
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\refint\MoveiApp.Business.dll
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.pdb
+D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\ref\MoveiApp.Business.dll
