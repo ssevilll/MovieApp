@@ -1,0 +1,11 @@
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.deps.json
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.dll
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.pdb
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.AssemblyInfo.cs
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.dll
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\refint\MovieApp.DataAccess.dll
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.pdb
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\ref\MovieApp.DataAccess.dll
