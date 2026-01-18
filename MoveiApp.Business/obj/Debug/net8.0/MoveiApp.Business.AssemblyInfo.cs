@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoveiApp.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64b76c926dcc7c5b1681777385013b915ee6f0e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+229611ce2d8ec3a0afde464330805f42393d84f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoveiApp.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoveiApp.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

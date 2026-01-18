@@ -12,38 +12,17 @@ namespace MoveiApp.Business.Services
         MovieAppDbContext context,
         IMapper mapper) : IDirectorService
     {
-        public List<DirectorReturnDto> GetAllDirectors()
+
+        public async Task<List<DirectorReturnDto>> GetAllDirectorsAsync()
         {
-            var directors = context.Directors.ToList();
-            List<DirectorReturnDto> directorDtos = new List<DirectorReturnDto>();
-            foreach (var director in directors)
-            {
-                var DirectorReturnDto = mapper.Map<DirectorReturnDto>(director);
-                directorDtos.Add(DirectorReturnDto);
-            }
-            ;
-            return directorDtos;
+            var directors= await context.Directors
+                .Include("Movies")
+                .ToListAsync();
+            var directorReturnDtos=mapper.Map<List<DirectorReturnDto>>(directors);
+            return directorReturnDtos;
+
         }
 
-        public async Task<List<DirectorReturnDto>> GetAllDirectorsAsync() =>
-            await context.Directors.Select(d => new DirectorReturnDto
-            {
-                Name = d.Name,
-                Description = d.Description,
-                Address = d.Address,
-                City = d.City,
-                Age = d.Age
-            })
-            .ToListAsync();
-
-        public DirectorReturnDto GetDirectorById(int id)
-        {
-            var existing = context.Directors.FirstOrDefault(d => d.Id == id);
-            if (existing == null)
-                throw new Exception();
-            var res = mapper.Map<DirectorReturnDto>(existing);
-            return res;
-        }
 
         public async Task<DirectorReturnDto> GetDirectorByIdAsync(int id)
         {
@@ -54,43 +33,44 @@ namespace MoveiApp.Business.Services
             return res;
         }
 
-        public List<Director> GetAllDirectorsSearch(string value)
+        public async Task<List<DirectorReturnDto>> GetAllDirectorsSearchAsync(string value)
         {
             if (string.IsNullOrWhiteSpace(value))
             {
                 throw new Exception();
             }
-            return context.Directors
-                .Where(d => d.Name.Contains(value))
-                .ToList();
-
-        }
-        public async Task<List<Director>> GetAllDirectorsAsync(string value)
-        {
-            if (string.IsNullOrWhiteSpace(value))
-            {
-                throw new Exception();
-            }
-            return await context.Directors
+            var directors= await context.Directors
                 .Where(d => d.Name.Contains(value))
                 .ToListAsync();
+            return mapper.Map<List<DirectorReturnDto>>(directors);
         }
 
-        public void Add(DirectorCreateDto directordto)
-        {
-            if (context.Directors.Any(d => d.Name == directordto.Name))
-                throw new Exception();
-            var director = mapper.Map<Director>(directordto);
-            context.Directors.Add(director);
-            context.SaveChanges();
-        }
-
-        public async Task AddAsync(DirectorCreateDto directordto)
+        public async Task AddDirectorAsync(DirectorCreateDto directordto)
         {
             if (await context.Directors.AnyAsync(d => d.Name == directordto.Name))
                 throw new Exception();
             var director = mapper.Map<Director>(directordto);
             await context.Directors.AddAsync(director);
+            await context.SaveChangesAsync();
+        }
+        public async Task UpdateDirectorAsync(int id, DirectorUpdateDto directorupdatedto)
+        {
+            if (id != directorupdatedto.Id)
+                throw new Exception();
+            var existing = await context.Directors.FirstOrDefaultAsync(d => d.Id == id);
+            if (existing == null)
+                throw new Exception();
+            if (context.Directors.Any(d => d.Name == directorupdatedto.Name && d.Id != id))
+                throw new Exception();
+            mapper.Map(directorupdatedto, existing);
+            await context.SaveChangesAsync();
+        }
+        public async Task DeleteDirectorAsync(int id)
+        {
+            var existing = await context.Directors.FirstOrDefaultAsync(d => d.Id == id);
+            if (existing == null)
+                throw new Exception();
+            context.Directors.Remove(existing);
             await context.SaveChangesAsync();
         }
     }

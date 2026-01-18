@@ -5,13 +5,11 @@ namespace MoveiApp.Business.Interfaces
 {
     public interface IDirectorService
     {
-        void Add(DirectorCreateDto directordto);
-        Task AddAsync(DirectorCreateDto directordto);
-        List<DirectorReturnDto> GetAllDirectors();
+        Task AddDirectorAsync(DirectorCreateDto directordto);
         Task<List<DirectorReturnDto>> GetAllDirectorsAsync();
-        Task<List<Director>> GetAllDirectorsAsync(string value);
-        List<Director> GetAllDirectorsSearch(string value);
-        DirectorReturnDto GetDirectorById(int id);
+        Task<List<DirectorReturnDto>> GetAllDirectorsSearchAsync(string value);
         Task<DirectorReturnDto> GetDirectorByIdAsync(int id);
+        Task UpdateDirectorAsync(int id, DirectorUpdateDto directorupdatedto);
+        Task DeleteDirectorAsync(int id);
     }
 }

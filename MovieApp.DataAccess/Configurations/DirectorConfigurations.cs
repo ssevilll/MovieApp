@@ -23,6 +23,8 @@ namespace MovieApp.DataAccess.Configurations
                 .HasMaxLength(100);
             builder.Property(d => d.Age)
                 .IsRequired();
+            builder.HasIndex(d => d.Name)
+                .IsUnique(); //unique constraint on Name
 
             //seed data
             builder.HasData (

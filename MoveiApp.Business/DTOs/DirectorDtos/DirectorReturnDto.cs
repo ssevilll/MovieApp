@@ -7,5 +7,6 @@
         public string Address { get; set; } = null!;
         public string? City { get; set; }
         public int Age { get; set; }
+        public List<string>  Movies { get; set; } //list for names of the movies
     }
 }
