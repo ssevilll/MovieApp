@@ -29,3 +29,4 @@ D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Busines
 D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\refint\MoveiApp.Business.dll
 D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.pdb
 D:\razdel c\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\ref\MoveiApp.Business.dll
+C:\Users\sevilsb\Desktop\MovieApp\MoveiApp.Business\obj\Debug\net8.0\MoveiApp.Business.sourcelink.json

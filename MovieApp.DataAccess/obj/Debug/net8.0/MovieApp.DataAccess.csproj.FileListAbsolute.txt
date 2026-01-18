@@ -24,3 +24,7 @@ D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\refint\MovieAp
 D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.pdb
 D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.genruntimeconfig.cache
 D:\razdel c\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\ref\MovieApp.DataAccess.dll
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\bin\Debug\net8.0\MovieApp.DataAccess.runtimeconfig.json
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.sourcelink.json
+C:\Users\sevilsb\Desktop\MovieApp\MovieApp.DataAccess\obj\Debug\net8.0\MovieApp.DataAccess.genruntimeconfig.cache

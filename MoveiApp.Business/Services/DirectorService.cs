@@ -1,15 +1,16 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using MoveiApp.Business.DTOs.DirectorDtos;
+using MoveiApp.Business.Interfaces;
 using MoveiApp.Business.Profiles;
 using MovieApp.DataAccess.Data;
 using MovieApp.DataAccess.Models;
 
 namespace MoveiApp.Business.Services
 {
-    public class DirectorService (
+    public class DirectorService(
         MovieAppDbContext context,
-        IMapper mapper)
+        IMapper mapper) : IDirectorService
     {
         public List<DirectorReturnDto> GetAllDirectors()
         {
@@ -19,7 +20,8 @@ namespace MoveiApp.Business.Services
             {
                 var DirectorReturnDto = mapper.Map<DirectorReturnDto>(director);
                 directorDtos.Add(DirectorReturnDto);
-            };
+            }
+            ;
             return directorDtos;
         }
 
@@ -36,10 +38,10 @@ namespace MoveiApp.Business.Services
 
         public DirectorReturnDto GetDirectorById(int id)
         {
-            var existing=context.Directors.FirstOrDefault(d => d.Id == id);
+            var existing = context.Directors.FirstOrDefault(d => d.Id == id);
             if (existing == null)
                 throw new Exception();
-            var res= mapper.Map<DirectorReturnDto>(existing);
+            var res = mapper.Map<DirectorReturnDto>(existing);
             return res;
         }
 
