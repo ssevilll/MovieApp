@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\razdel c\\Desktop\\MovieApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1103AFE3-CFA6-4271-B77A-D04313F6F928}|MoveiApp.Business\\MoveiApp.Business.csproj|d:\\razdel c\\desktop\\movieapp\\moveiapp.business\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1103AFE3-CFA6-4271-B77A-D04313F6F928}|MoveiApp.Business\\MoveiApp.Business.csproj|solutionrelative:moveiapp.business\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1103AFE3-CFA6-4271-B77A-D04313F6F928}|MoveiApp.Business\\MoveiApp.Business.csproj|d:\\razdel c\\desktop\\movieapp\\moveiapp.business\\services\\directorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1103AFE3-CFA6-4271-B77A-D04313F6F928}|MoveiApp.Business\\MoveiApp.Business.csproj|solutionrelative:moveiapp.business\\services\\directorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785A101D-D975-4138-9CCD-BA70F2731BC7}|MovieApp.Presentation\\MovieApp.Presentation.csproj|d:\\razdel c\\desktop\\movieapp\\movieapp.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785A101D-D975-4138-9CCD-BA70F2731BC7}|MovieApp.Presentation\\MovieApp.Presentation.csproj|solutionrelative:movieapp.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63C0F9D-63A0-4B44-B114-A9DD251E5A19}|MovieApp.DataAccess\\MovieApp.DataAccess.csproj|d:\\razdel c\\desktop\\movieapp\\movieapp.dataaccess\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63C0F9D-63A0-4B44-B114-A9DD251E5A19}|MovieApp.DataAccess\\MovieApp.DataAccess.csproj|solutionrelative:movieapp.dataaccess\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63C0F9D-63A0-4B44-B114-A9DD251E5A19}|MovieApp.DataAccess\\MovieApp.DataAccess.csproj|d:\\razdel c\\desktop\\movieapp\\movieapp.dataaccess\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A63C0F9D-63A0-4B44-B114-A9DD251E5A19}|MovieApp.DataAccess\\MovieApp.DataAccess.csproj|solutionrelative:movieapp.dataaccess\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 116,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\MovieApp\\MovieApp.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApp.Presentation\\Program.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\MovieApp\\MovieApp.Presentation\\Program.cs",
+              "RelativeToolTip": "MovieApp.Presentation\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T16:36:54.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\MovieApp\\MoveiApp.Business\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "MoveiApp.Business\\Services\\MovieService.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\MovieApp\\MoveiApp.Business\\Services\\MovieService.cs",
+              "RelativeToolTip": "MoveiApp.Business\\Services\\MovieService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T14:35:43.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DirectorService.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\MovieApp\\MoveiApp.Business\\Services\\DirectorService.cs",
+              "RelativeDocumentMoniker": "MoveiApp.Business\\Services\\DirectorService.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\MovieApp\\MoveiApp.Business\\Services\\DirectorService.cs",
+              "RelativeToolTip": "MoveiApp.Business\\Services\\DirectorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T14:31:42.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\MovieApp\\MovieApp.DataAccess\\Concretes\\Repository.cs",
+              "RelativeDocumentMoniker": "MovieApp.DataAccess\\Concretes\\Repository.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\MovieApp\\MovieApp.DataAccess\\Concretes\\Repository.cs",
+              "RelativeToolTip": "MovieApp.DataAccess\\Concretes\\Repository.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv2AAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T14:04:05.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\MovieApp\\MovieApp.DataAccess\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "MovieApp.DataAccess\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\MovieApp\\MovieApp.DataAccess\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "MovieApp.DataAccess\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:48:04.411Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"

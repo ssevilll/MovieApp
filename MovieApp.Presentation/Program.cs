@@ -7,6 +7,9 @@ using MoveiApp.Business.Services;
 using MovieApp.DataAccess.Data;
 using AutoMapper;
 using MoveiApp.Business.Interfaces;
+using MovieApp.DataAccess.Interfaces;
+using MovieApp.DataAccess.Concretes;
+using MovieApp.DataAccess.Models;
 
 namespace MovieApp.Presentation
 {
@@ -19,13 +22,15 @@ namespace MovieApp.Presentation
             serviceCollection.AddDbContext<MovieAppDbContext>();
             //serviceCollection.AddDbContext<MovieAppDbContext>(options =>
             //    options.UseSqlServer("Server=.\SQLEXPRESS;Database=MovieAppDb;Trusted_Connection=True;TrustServerCertificate=True;"));
+            serviceCollection.AddLogging();
             serviceCollection.AddAutoMapper(options =>
             {
                 options.AddProfile<MapperProfile>();
             });
-            serviceCollection.AddLogging();
             serviceCollection.AddScoped<IDirectorService, DirectorService>();
             serviceCollection.AddScoped<IMovieService, MovieService>();
+            serviceCollection.AddScoped (typeof(IRepository<>),typeof(Repository<>));
+
             var serviceProvider = serviceCollection.BuildServiceProvider();
             var directorService = serviceProvider.GetRequiredService<IDirectorService>();
             var movieService = serviceProvider.GetRequiredService<IMovieService>();
@@ -44,6 +49,8 @@ namespace MovieApp.Presentation
             {
                 Console.WriteLine($"Director: {director.Name}, Movies:{string.Join(",", director.Movies)}");
             }
+
+           
         }
     }
 }
